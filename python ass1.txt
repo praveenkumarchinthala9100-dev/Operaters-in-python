@@ -1,0 +1,165 @@
+Q.NO 1
+number = 6  # You can change this value
+
+if number % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+
+Q.NO 3
+A = 4
+B = 7
+
+if A > B:
+    print("Biggest is:", A)
+else:
+    print("Biggest is:", B)
+OUTPUT=7
+
+Q.NO 4
+A = 4
+B = 7
+
+if A < B:
+    print("Smallest is:", A)
+else:
+    print("Smallest is:", B)
+OUT PUT=SMALLEST IS 4
+
+Q.NO5
+number = 18
+
+if number % 2 == 0 and number % 3 == 0 and number % 6 == 0:
+    print("Satisfy")
+else:
+    print("Does not satisfy")
+OUTPUT= SATISFY
+
+Q.N06
+age = 19
+
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
+OUTPUT= ELIGIBLE
+
+
+Q.NO7
+Maths = 40
+Physics = 36
+Chemistry = 30
+
+if Maths >= 35 and Physics >= 35 and Chemistry >= 35:
+    print("Pass")
+else:
+    print("Fail")
+OUTPUT= FAIL
+
+Q.NO8
+Maths = 20
+Physics = 38
+Chemistry = 25
+
+if Maths >= 35 or Physics >= 35 or Chemistry >= 35:
+    print("Pass")
+else:
+    print("Fail")
+OUTPUT= PASS
+
+Q.NO9
+Maths = 40
+Physics = 20
+Chemistry = 36
+
+passed_subjects = 0
+
+if Maths >= 35:
+    passed_subjects += 1
+if Physics >= 35:
+    passed_subjects += 1
+if Chemistry >= 35:
+    passed_subjects += 1
+
+if passed_subjects >= 2:
+    print("Pass")
+else:
+    print("Fail")
+OUTPUT= PASS
+
+QNO 10
+A = 7
+B = 4
+C = 9
+
+if A >= B and A >= C:
+    biggest = A
+elif B >= A and B >= C:
+    biggest = B
+else:
+    biggest = C
+print("Biggest is:", biggest)
+OUT PUT=BIGGEST IS 9
+
+
+Q.NO 11
+A = 7
+B = 4
+C = 9
+
+if A <= B and A <= C:
+    smallest = A
+elif B <= A and B <= C:
+    smallest = B
+else:
+    smallest = C
+
+print("Smallest is:", smallest)
+OUTPUT= SMALLEST IS 4
+
+Q.NO 12
+import math
+
+number = 49
+sqrt_num = int(math.sqrt(number))
+
+if sqrt_num * sqrt_num == number:
+    print("Perfect square")
+else:
+    print("Not a perfect square")
+OUTPUT=PERFECT SQUARE
+
+QN0 13
+import math
+
+members = 17
+cars_needed = math.ceil(members / 5)
+
+print("Cars needed =", cars_needed)
+ OUTPUT= cars needed=4
+
+QNO.14
+
+A = 10
+B = 25
+C = 18
+
+numbers = [A, B, C]
+numbers.sort()  # Sorts in ascending order
+
+print("Second biggest:", numbers[-2])
+
+OUTPUT=Second biggest: 18
+
+Q.N0 15
+year = 2024
+
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print("Leap year")
+else:
+    print("Not a leap year")
+out put= leaf year
+
+
+
+
